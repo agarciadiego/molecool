@@ -5,7 +5,7 @@ A Python package for analyzing and visualizing xyz files.
 
 # Add imports here
 from .functions import canvas
-from .meassure import calculate_angle, calculate_distance
+from .meassure import calculate_angle, calculate_distance, calculate_molecular_mass, calculate_center_of_mass
 from .visualize import draw_molecule, bond_histogram
 from .molecule import build_bond_list
 
